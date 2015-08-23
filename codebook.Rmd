@@ -1,0 +1,18 @@
+---
+title: "codebook"
+author: "Julian Flowers"
+date: "23 August 2015"
+output: html_document
+---
+
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
