@@ -1,9 +1,9 @@
 ## Download data and store to temp file
 
 url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(url, destfile = zipfile, method = "curl", quiet = TRUE)
+download.file(url, destfile = "coursera.zip", method = "curl", quiet = TRUE)
 dir.create(coursera)
-unzip(zipfile, exdir = coursera)
+unzip(coursera, exdir = coursera)
 
 ## read files
 act.labels <- read.table("~/coursera/UCI HAR Dataset/activity_labels.txt", quote="\"", comment.char="") ##labels for activity
